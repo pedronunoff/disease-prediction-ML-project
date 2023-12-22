@@ -2,7 +2,7 @@
 
 This project was developed for the Machine Learning course in the Master's degree in Data Science and Advanced Analytics at NOVA IMS.
 
-The goal of this project was to use supervised learning algorithms in order to do binary classification (will catch it, will not) using data describing (fictional) people's health habits, personal characteristics and answers from a survey regarding mental and physical health. The end goal was to use the best model to do final predictions on unlabeled data (the f1 score would later be released from the kaggle private competition). All code was developed in Python.
+The goal of this project was to use supervised learning algorithms in order to do binary classification (will catch it, will not) using data describing (fictional) people's health habits, personal characteristics and answers from a survey regarding their mental and physical health. The end goal was to use the best model to do final predictions on unlabeled data (the f1 score would later be released from a kaggle private competition). All code was developed in Python.
 
 ## Main Steps (and main methods/algorithms)
 
