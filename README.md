@@ -8,7 +8,7 @@ The goal of this project was to use supervised learning algorithms in order to d
 
 - Data exploration with checks for missing data, inconsistencies and outliers (boxplots, histograms, DBScan)
 - Preprocessing with inconsistencies, outliers and missing values correction, feature engineering, encoding, imputing and scaling; we built a custom pipeline to do all of this, as we later meant to do cross-validation, so were very careful about data leakage so we weren't mistaken by the results in the model evaluation part (RFE, column transformer, Pipeline, kNNImputer, Ordinal and OneHot Encoders, MinMaxScaling, Decision Trees, Lasso Regression, Chi-Squared test, Mutual Information)
-- Modelling with Cross Validation (Random Forest, Extremely Randomized Trees, Gradient Boosting, SVM, kNN, MLP, Bagging and Voting); hyperparameter tuning with Randomized Search
+- Modelling with cross-validation and hyperparameter tuning (Random Forest, Extremely Randomized Trees, Gradient Boosting, SVM, kNN, MLP, Bagging and Voting, Randomized Search)
 - Models' results assessment and choice (CV f1 score on test set)
 - Final Predictions.
 
